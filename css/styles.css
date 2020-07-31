@@ -15,4 +15,6 @@ body {
     background: url(./assests/background1.jpg);
     background-size: cover;
     padding: 2rem;
+    height: 700px;
+    
 }
