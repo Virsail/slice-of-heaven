@@ -12,8 +12,7 @@ body {
     font-size-adjust: auto;
     color: blue;
     font-family: 'Pacifico', cursive;
-    
+    background: url(./assests/background1.jpg);
     background-size: cover;
-    height: 680px;
     padding: 2rem;
 }
