@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
     padding: 0;
@@ -27,4 +28,13 @@ body {
     background-size: cover;
     height: 700px;
     color: white;
+}
+
+.section2 {
+    font-size-adjust: auto;
+    font-family: 'Permanent Marker', cursive;
+    background: url(./assests/background3.jpg);
+    background-size: cover;
+    color: white;
+
 }
