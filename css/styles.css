@@ -42,4 +42,6 @@ body {
 
 .section3 {
     font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background: url(./assests/mwisho.jpg);
 }
