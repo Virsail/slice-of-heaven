@@ -6,3 +6,14 @@ body {
     height: auto;
     background-color: black;
 }
+
+.section {
+    text-align: center;
+    font-size-adjust: auto;
+    color: blue;
+    font-family: 'Pacifico', cursive;
+    
+    background-size: cover;
+    height: 680px;
+    padding: 2rem;
+}
