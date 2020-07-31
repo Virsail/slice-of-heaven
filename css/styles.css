@@ -10,11 +10,16 @@ body {
 .section {
     text-align: center;
     font-size-adjust: auto;
-    color: blue;
+    color: black;
     font-family: 'Pacifico', cursive;
     background: url(./assests/background1.jpg);
     background-size: cover;
     padding: 2rem;
     height: 700px;
+    
+}
+
+.section1 {
+    text-align: center;
     
 }
