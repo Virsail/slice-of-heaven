@@ -23,9 +23,9 @@ var pizza = {
 
   //object for pizza prices,crust and toppings//
   var pizzaPrice = {
-    size: ["Large = 800", "Small = 200", "Medium = 400"],
-    crust: ["Crispy  = 400", "Stuffed = 350", "Gluten free = 300", "Scrumbled = 250"],
-    toppings: ["pepperoni = 600","mushrooms = 550","onions = 500", "sausage = 450","bacon = 400", "extra cheese = 350"],
+    size: ["Large"= 800, "Small"= 200, "Medium" = 400],
+    crust: ["Crispy"= 400, "Stuffed"= 350, "Gluten free"= 300, "Scrumbled"= 250],
+    toppings: ["pepperoni" = 600, "mushrooms"= 550, "onions"= 500, "sausage"= 450,"bacon" = 400, "extra cheese"= 350],
   };
 
   //consrtuctor for pizza//
@@ -78,21 +78,8 @@ function pizza (size, crust, toppings) {
   alert("Thank you for choosing Slice of Heaven pizza ,order is being processed");
   }
 
-  //function get total//
-  function sum()
-  {
-    var field=document.getElementById("quantity").value;
-    var field1=document.getElementById("textvalue").value;
-    var field2=document.getElementById("textvalue1").value;
-
-    var result=parseFloat(field)+parseInt(field1)+parseInt(field2);
-
-    if(!isNaN(result))
-    {
-      document.getElementById("answer").innerHTML="Your total is "+result;
-    }
-  }
-
+  //function get location of user//
+  alert("Your order will be delivered to your location! Delivery fee is 250 Kenyan shillings");
 
 
   
