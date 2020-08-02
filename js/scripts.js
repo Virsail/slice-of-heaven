@@ -64,11 +64,28 @@ function pizza (size, crust, toppings) {
     return this.size + " " + this.crust + " " + this.toppings
   }
 
-  //jquery function to display history of order made//
-  $(document).ready(function() {
-    $("#ddselect").click(function() {
-      $("#ddselect").show();
-    });
+  //function getselection//
+  function getselection()
+  {
+    var d=document.getElementById("checkboxselect");
+    var displayText=d.options[d.selectedIndex].text;
+    document.getElementById("textvalue2").value=displayText;
+
+  }
+  //function get order history//
+  function getorderhistory()
+  {
+  var d=document.getElementById("ddselect");
+  var displayText=d.options[d.selectedIndex].text;
+  document.getElementById("textvalue").value=displayText;
+
+  var d=document.getElementById("ddselect1");
+  var displayText=d.options[d.selectedIndex].text;
+  document.getElementById("textvalue1").value=displayText;
+
+
+
+  
 
   
 
