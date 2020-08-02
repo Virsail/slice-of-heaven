@@ -75,7 +75,7 @@ function pizza (size, crust, toppings) {
   var displayText=d.options[d.selectedIndex].text;
   document.getElementById("textvalue1").value=displayText;
 
-  return "textvalue" + "textvalue1"
+  alert("Thank you for making your order") + textvalue + textvalue1
   }
 
 
