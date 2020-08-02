@@ -23,9 +23,9 @@ var pizza = {
 
   //object for pizza prices,crust and toppings//
   var pizzaPrice = {
-    size: ["Large"= 800, "Small"= 200, "Medium" = 400],
-    crust: ["Crispy"= 400, "Stuffed"= 350, "Gluten free"= 300, "Scrumbled"= 250],
-    toppings: ["pepperoni" = 600, "mushrooms"= 550, "onions"= 500, "sausage"= 450,"bacon" = 400, "extra cheese"= 350],
+    size: ["Large = 800", "Small = 200", "Medium = 400"],
+    crust: ["Crispy = 400", "Stuffed = 350", "Gluten free = 300", "Scrumbled = 250"],
+    toppings: ["pepperoni = 600", "mushrooms = 550", "onions = 500", "sausage = 450","bacon = 400", "extra cheese = 350"],
   };
 
   //consrtuctor for pizza//
@@ -78,20 +78,25 @@ function pizza (size, crust, toppings) {
   alert("Thank you for choosing Slice of Heaven pizza ,order is being processed");
   }
 
-  //function get sum of order//
-  function sum 
+  //function to check price//
+  function checkPrice()
   {
-    var field1=document.getElementById("ddselect").value;
-    var field2=document.getElementById("ddselect1").value;
+    var size = document.getElementById("ddselect").value;
 
-    var result=parseInt(field1)+parseInt(field2);
-
-    if(!isNaN(result))
+    if(size == "Large")
     {
-      document.getElementById("total").innerHTML="Your total is "+result;
+      var price = 800
+      document.getElementById("price").value=document.getElementById("quantity").value*price
+    }
+    else if(size == "Small")
+    {
+      var price = 200
+      document.getElementById("price").value=document.getElementById("quantity").value*price
     }
   }
+  
 
+  
 
   
 
