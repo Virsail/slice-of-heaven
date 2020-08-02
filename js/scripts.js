@@ -75,7 +75,22 @@ function pizza (size, crust, toppings) {
   var displayText=d.options[d.selectedIndex].text;
   document.getElementById("textvalue1").value=displayText;
 
-  alert("Thank you for making your order") + textvalue + textvalue1
+  alert("Thank you for choosing Slice of Heaven pizza ,order is being processed");
+  }
+
+  //function get total//
+  function sum()
+  {
+    var field=document.getElementById("quantity").value;
+    var field1=document.getElementById("textvalue").value;
+    var field2=document.getElementById("textvalue1").value;
+
+    var result=parseFloat(field)+parseInt(field1)+parseInt(field2);
+
+    if(!isNaN(result))
+    {
+      document.getElementById("answer").innerHTML="Your total is "+result;
+    }
   }
 
 
