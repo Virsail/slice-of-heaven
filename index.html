@@ -33,7 +33,7 @@
            <p>Please choose your slice below</p>
            <select id="ddselect" onchange="ddselect();">
             <option>PIZZA SIZE</option>
-            <option>Large</option>
+            <option>Large</option> 
             <option>Small</option>
             <option>Medium</option>
            </select>
@@ -47,7 +47,6 @@
            </select>
            <input type="text" id="textvalue1"/><hr>
            <P>TOPPINGS</P>
-                <select id="checkboxselect" onclick="getSelection();">
                 <input type="checkbox" id="pepperoni" class="">
                 <label for="pepperoni">pepperoni</label>
                 <input type="checkbox" id="mushrooms" class="">
@@ -59,10 +58,9 @@
                 <input type="checkbox" id="bacon" class="">
                 <label for="bacon">bacon</label>
                 <input type="checkbox" id="extra cheese" class="">
-                <label for="extra cheese">extra cheese</label>
-                <input type="text" id="textvalue2"/><hr>
-                <button type="button" onclick=" getorderhistory()" >PLACE ORDER</button><hr>
-                <button type="submit" class="btn">TOTAL </button> 
+                <label for="extra cheese">extra cheese</label><hr>
+                <button type="button" onclick="getorderhistory();" >PLACE ORDER</button><hr>
+                <button type= submit" onclick="sum();">TOTAL </button> 
                 </div>
    </div>  
    <div class="containerfluid">
@@ -75,7 +73,9 @@
                 <input type="checkbox" id="do not deliver" class=""><br>
                 <p id="check-boxerror"></p><hr>
                 <p>Please input your location for delivery:</p>
-                <input type="text" id="textvalue"/><hr>
+                <input type="text" id="textvalue2"/><hr>
+                <button type="button" onclick="getlocation();">DELIVER</button><hr>
+
                 <input type="submit" value="Continue to checkout" class="btn">
        </div>
    </div> 
