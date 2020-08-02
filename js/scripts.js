@@ -22,7 +22,7 @@ var pizza = {
   };  
 
   //object for pizza prices,crust and toppings//
-  var pizzaPrices = {
+  var pizzaPrice = {
     size: ["Large = 800", "Small = 200", "Medium = 400"],
     crust: ["Crispy  = 400", "Stuffed = 350", "Gluten free = 300", "Scrumbled = 250"],
     toppings: ["pepperoni = 600","mushrooms = 550","onions = 500", "sausage = 450","bacon = 400", "extra cheese = 350"],
@@ -47,10 +47,25 @@ function pizza (size, crust, toppings) {
   }
 
   //constructor for pizza prices//
-  function pizzaPrices (size, crust, toppings) {
+  function pizzaPrice (size, crust, toppings) {
     this.size = {0: 800, 1: 200, 2: 400};
     this.crust = {0: 400, 1: 350, 2: 300, 3: 250};
     this.toppings = {0: 600, 1: 550, 2: 500, 3: 450, 4: 400, 5: 350};
   }
+
+  //business logic//
+  function pizzaPrice (size, crust, toppings) {
+      this.size = {0: 800, 1: 200, 2: 400};
+      this.crust = {0: 400, 1: 350, 2: 300, 3: 250};
+      this.toppings = {0: 600, 1: 550, 2: 500, 3: 450, 4: 400, 5: 350};
+  }
+
+  pizzaPrice.prototype.calculatetotal = function() {
+    return this.size + " " + this.crust + " " + this.toppings
+  }
+
+
+  
+
 
   
