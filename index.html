@@ -47,6 +47,7 @@
            </select>
            <input type="text" id="textvalue1"/><hr>
            <P>TOPPINGS</P>
+                <select id="checkboxselect" onclick="getSelection();">
                 <input type="checkbox" id="pepperoni" class="">
                 <label for="pepperoni">pepperoni</label>
                 <input type="checkbox" id="mushrooms" class="">
@@ -58,11 +59,11 @@
                 <input type="checkbox" id="bacon" class="">
                 <label for="bacon">bacon</label>
                 <input type="checkbox" id="extra cheese" class="">
-                <label for="extra cheese">extra cheese</label><hr>
-                <button type="button">PLACE ORDER</button><hr>
-                <div class="container"></div>
+                <label for="extra cheese">extra cheese</label>
+                <input type="text" id="textvalue2"/><hr>
+                <button type="button" onclick=" getorderhistory()" >PLACE ORDER</button><hr>
                 <button type="submit" class="btn">TOTAL </button> 
-       </div>
+                </div>
    </div>  
    <div class="containerfluid">
        <div class="section2">
@@ -75,7 +76,7 @@
                 <p id="check-boxerror"></p><hr>
                 <p>Please input your location for delivery:</p>
                 <input type="text" id="textvalue"/><hr>
-                <input type="submit" value="Continue to checkout" class="btn1">
+                <input type="submit" value="Continue to checkout" class="btn">
        </div>
    </div> 
    <div class="containerfluid">
