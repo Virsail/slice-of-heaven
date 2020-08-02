@@ -116,6 +116,7 @@ function pizza (size, crust, toppings) {
 
   alert("The delivery fee will be 150ksh Thank you!");
   prompt("Enter your location");
+  alert("Awesome the order has been released and will be delivered to the location given");
   }
 
   
