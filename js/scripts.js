@@ -28,14 +28,14 @@ var pizza = {
     toppings: ["pepperoni = 600","mushrooms = 550","onions = 500", "sausage = 450","bacon = 400", "extra cheese = 350"],
   };
 
-  //consrtuctor for pizza
+  //consrtuctor for pizza//
   function pizza (size, crust, toppings) {
     this.size = size;
     this.crust = crust;
     this.toppings = toppings;
   }
 
- // business logic
+ // business logic//
 function pizza (size, crust, toppings) {
     this.size = size;
     this.crust = crust;
@@ -45,3 +45,12 @@ function pizza (size, crust, toppings) {
   pizza.prototype.orderhistory = function() {
     return this.size + " " + this.crust + " " + this.toppings
   }
+
+  //constructor for pizza prices//
+  function pizzaPrices (size, crust, toppings) {
+    this.size = {0: 800, 1: 200, 2: 400};
+    this.crust = {0: 400, 1: 350, 2: 300, 3: 250};
+    this.toppings = {0: 600, 1: 550, 2: 500, 3: 450, 4: 400, 5: 350};
+  }
+
+  
