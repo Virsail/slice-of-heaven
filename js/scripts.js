@@ -119,6 +119,10 @@ function pizza (size, crust, toppings) {
   alert("Awesome the order has been released and will be delivered to the location given");
   }
 
+  //checkout function//
+  function checkOut() {
+    window.history.back();
+  }
   
 
   

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap'); /*import google fonts to my css style sheet*/
 
+/*set the padding,margin,height and background color of the body*/
 body {
     padding: 0;
     margin: 0;
@@ -9,6 +10,7 @@ body {
     background-color: white;
 }
 
+/*set text-alignment for section to center,auto-adjust,color to white,font-family pacifico and background image ,height 700px*/
 .section {
     text-align: center;
     font-size-adjust: auto;
@@ -18,9 +20,9 @@ body {
     background-size: cover;
     padding: 2rem;
     height: 700px;
-    
 }
 
+/*set text-alignment for section to center,auto-adjust,color to white,font-family pacifico and background image ,height 700px*/
 .section1 {
     text-align: center;
     font-size-adjust: auto;
@@ -31,6 +33,7 @@ body {
     color: white;
 }
 
+/*font-size auto-adjust,color to white,font-family permanent marker and background image ,height 680px*/
 .section2 {
     font-size-adjust: auto;
     font-family: 'Permanent Marker', cursive;
@@ -38,8 +41,10 @@ body {
     background-size: cover;
     color: white;
     height: 680px;
+    text-align: center;
 }
 
+/*font color to white,font-family dancing script and background image ,height 150px*/
 .section3 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -50,7 +55,7 @@ body {
 
 .icon-bar {
     width: 90px; /* Set a specific width */
-    background-color: #555; /* Dark-grey background */
+    background-color: pink; /* pink  background */
   }
   
   .icon-bar a {
@@ -69,3 +74,10 @@ body {
   .active {
     background-color: #4CAF50; /* Add an active/current color */
   }
+
+  /*set the submit1 class font to white*/
+  .btn {
+    color: black;
+    background-color: white;
+  }
+
