@@ -93,7 +93,16 @@ function pizza (size, crust, toppings) {
       var price = 200
       document.getElementById("price").value=document.getElementById("quantity").value*price
     }
+    else if(size == "Medium")
+    {
+      var price = 400
+      document.getElementById("price").value=document.getElementById("quantity").value*price
+    }
   }
+
+  //function to check delivery//
+  $('input[type=checkbox]').prop('checked');//returns true if checked 
+
   
 
   
