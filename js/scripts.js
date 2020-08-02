@@ -65,7 +65,7 @@ function pizza (size, crust, toppings) {
   }
 
   //function get order history//
-  function getorderhistory()
+  function getOrderHistory()
   {
   var d=document.getElementById("ddselect");
   var displayText=d.options[d.selectedIndex].text;
@@ -102,6 +102,21 @@ function pizza (size, crust, toppings) {
 
   //function to check delivery//
   $('input[type=checkbox]').prop('checked');//returns true if checked 
+
+  //function to alert user about delivery fee//
+  function checkDelivery()
+  {
+    var d=document.getElementById("ddselect");
+  var displayText=d.options[d.selectedIndex].text;
+  document.getElementById("textvalue").value=displayText;
+
+  var d=document.getElementById("ddselect1");
+  var displayText=d.options[d.selectedIndex].text;
+  document.getElementById("textvalue1").value=displayText;
+
+  alert("The delivery fee will be 150ksh Thank you!");
+  prompt("Enter your location");
+  }
 
   
 
