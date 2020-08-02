@@ -64,6 +64,11 @@ function pizza (size, crust, toppings) {
     return this.size + " " + this.crust + " " + this.toppings
   }
 
+  //jquery function to display history of order made//
+  $(document).ready(function() {
+    $("#ddselect").click(function() {
+      $("#ddselect").show();
+    });
 
   
 
