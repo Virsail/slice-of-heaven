@@ -78,8 +78,19 @@ function pizza (size, crust, toppings) {
   alert("Thank you for choosing Slice of Heaven pizza ,order is being processed");
   }
 
-  //function get location of user//
-  alert("Your order will be delivered to your location! Delivery fee is 250 Kenyan shillings");
+  //function get sum of order//
+  function sum 
+  {
+    var field1=document.getElementById("ddselect").value;
+    var field2=document.getElementById("ddselect1").value;
+
+    var result=parseInt(field1)+parseInt(field2);
+
+    if(!isNaN(result))
+    {
+      document.getElementById("total").innerHTML="Your total is "+result;
+    }
+  }
 
 
   
